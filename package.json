@@ -1,0 +1,26 @@
+{
+  "name": "driver",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "~1.18.2",
+    "bson": "^1.0.4",
+    "connect-mongo": "^2.0.0",
+    "connect-mongodb": "^1.1.5",
+    "consolidate": "^0.14.5",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dot": "^1.1.2",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongoose": "^4.12.4",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "session-file-store": "^1.1.2"
+  }
+}
